@@ -42,8 +42,12 @@ def pf_name_pie_chart(df):
         st.warning("Column 'Profile Name' not found in the uploaded CSV file.")
 
 
-if __name__ == "__main__":
+
+def main():
     upload_file()
+    
+if __name__ == "__main__":
+    main()
     
     
 #:some ideas for improvement:
